@@ -1,0 +1,80 @@
+.detailed-card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(255, 255, 255);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 30px;
+    width: 60%;
+    height: 40%;
+}
+.top .cross img{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: white;
+}
+.top button{
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content ul li{
+    display: flex;
+    justify-content: space-between;
+}
+.edit-delete-div{
+    display: flex;
+}
+.edit-delete-div img{
+    width: 20px;
+    height: 20px;
+}
+.edit-delete-div button{
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+}
+.title{
+    display: flex;
+    align-items: center;
+} 
+.button-add img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.add-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-div input{
+    width: 70%;
+}
+.save-button{
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: blueviolet;
+}
+.cross-button img{
+    width: 20px;
+    height: 20px;
+}
+.cross-button{
+    border: none;
+    background-color: white;
+}
