@@ -249,9 +249,9 @@ function Home(){
                                     setDetails={setDetails}
                                     setEditPersonalDetails={setEditPersonalDetails}
                                     deleteUser={deleteUser}
-                                />} else {
-                                    return <h1>Hello! I Hope You Are Having A Great Day</h1>;
-                                }
+                                />}
+                                   
+                                
                             })
                     }
                     {(showWhat !== "none") && 
