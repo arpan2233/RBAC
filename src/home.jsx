@@ -207,7 +207,7 @@ function Home(){
                                             team_members: element.team_members
                                         });
                                         setTeamDetails(oldTeamDetails);
-                                        }} ><img src="https://uxwing.com/wp-content/themes/uxwing/download/editing-user-action/pencil-icon.png" alt="Edit" /></button>
+                                        }} ><img src="https://uxwing.com/wp-content/themes/uxwing/download/editing-user-action/edit-icon.png" alt="Edit" /></button>
                                     <button onClick={()=>{
                                         setOldTeamDetails ({
                                             team_name: element.team_name,
