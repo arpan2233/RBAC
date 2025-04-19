@@ -20,7 +20,7 @@ function TeamCard(props){
                 deleteUser={props.deleteUser}
             />)}
             <div className="button-add">
-                <button onClick={()=>props.setShowForm(true)}><img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/add-round-icon.png" alt="add team member" /></button>
+                <button onClick={()=>props.setShowForm(true)}><img src="https://www.svgrepo.com/show/522230/plus-circle.svg" alt="add team member" /></button>
             </div>
         </div>
         
