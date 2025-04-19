@@ -207,7 +207,7 @@ function Home(){
                                             team_members: element.team_members
                                         });
                                         setTeamDetails(oldTeamDetails);
-                                        }} ><img src="https://uxwing.com/wp-content/themes/uxwing/download/editing-user-action/edit-icon.png" alt="Edit" /></button>
+                                        }} ><img src="https://www.svgrepo.com/show/509911/edit.svg" alt="Edit" /></button>
                                     <button onClick={()=>{
                                         setOldTeamDetails ({
                                             team_name: element.team_name,
@@ -215,7 +215,7 @@ function Home(){
                                             team_members: element.team_members
                                         });
                                         deleteTeam();
-                                    }} ><img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/trash-icon.png" alt="Delete" /></button>
+                                    }} ><img src="https://www.svgrepo.com/show/490436/trash-can.svg" alt="Delete" /></button>
                                 </div>
                             </li>)}
                         </ul>
@@ -226,7 +226,7 @@ function Home(){
                 <div className="collapsed-pane">
                     <img onClick={()=>{
                         setShown(true)
-                    }} src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/home-button-white-icon.svg" alt="" />
+                    }} src="https://www.svgrepo.com/show/535437/home.svg" alt="" />
                 </div>
             }
             <div className="expanded-view">
@@ -266,7 +266,7 @@ function Home(){
                         <div className="form"> 
                             <div className="title">
                                 <h3>Add Member Details</h3>
-                                <img onClick={()=>setShowForm(false)} src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/remove-close-round-icon.png" alt="cross" />
+                                <img onClick={()=>setShowForm(false)} src="https://www.svgrepo.com/show/522087/cross.svg" alt="cross" />
                             </div>
                             <div className="break"><hr /></div>
                             <form action="Add" onSubmit={addMember}>
@@ -296,7 +296,7 @@ function Home(){
                         <div className="form">
                             <div className="title">
                                 <h3>Add Team Details</h3>
-                                <img onClick={()=>setAddTeam(false)} src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/remove-close-round-icon.png" alt="cross" />
+                                <img onClick={()=>setAddTeam(false)} src="https://www.svgrepo.com/show/522087/cross.svg" alt="cross" />
                             </div>
                             <div className="break"><hr /></div>
                             <form action="Add" onSubmit={addAnotherTeam}>
@@ -318,7 +318,7 @@ function Home(){
                         <div className="form"> 
                             <div className="title">
                                 <h3>Edit Member Details</h3>
-                                <img onClick={()=>setEditPersonalDetails(false)} src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/remove-close-round-icon.png" alt="cross" />
+                                <img onClick={()=>setEditPersonalDetails(false)} src="https://www.svgrepo.com/show/522087/cross.svg" alt="cross" />
                             </div>
                             <div className="break"><hr /></div>
                             <form action="Save" onSubmit={changeMember}>
@@ -348,7 +348,7 @@ function Home(){
                         <div className="form">
                         <div className="title">
                             <h3>Edit Team Details</h3>
-                            <img onClick={()=>setEditTeamDetails(false)} src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/remove-close-round-icon.png" alt="cross" />
+                            <img onClick={()=>setEditTeamDetails(false)} src="https://www.svgrepo.com/show/522087/cross.svg" alt="cross" />
                         </div>
                         <div className="break"><hr /></div>
                         <form action="Save" onSubmit={EditTeam}>
