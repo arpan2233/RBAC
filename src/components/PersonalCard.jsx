@@ -5,7 +5,7 @@ function PersonalCard(props){
         <div className="name-image-div">
             <div className="name-div"><h3>{props.attributes.member_name}</h3></div>
             <div className="image-div">
-                <img src="https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/businessman-icon.png"/>
+                <img src="https://www.svgrepo.com/show/513224/man.svg"/>
             </div>
         </div>
         <div className="specifics-div">
@@ -42,7 +42,7 @@ function PersonalCard(props){
                     Deadline:props.attributes.deadline
                 });
                 props.setEditPersonalDetails(true);
-            }} ><img src="https://uxwing.com/wp-content/themes/uxwing/download/editing-user-action/pencil-icon.png" alt="Edit" /></button>
+            }} ><img src="https://www.svgrepo.com/show/535558/pencil.svg" alt="Edit" /></button>
             <button onClick={()=>{
                 props.setOldValues({
                     Name: props.attributes.member_name, 
@@ -51,7 +51,7 @@ function PersonalCard(props){
                     Deadline: props.attributes.deadline
                 });
                 props.deleteUser();
-            }} ><img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/trash-icon.png" alt="Delete" /></button>
+            }} ><img src="https://www.svgrepo.com/show/490436/trash-can.svg" alt="Delete" /></button>
         </div>
     </div>
 }
