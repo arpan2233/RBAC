@@ -14,11 +14,11 @@ function DetailedCard(props){
                 <div className="title">
                     <div className="title-content"><h2>{props.title}</h2></div>
                     <div className="button-add">
-                        <button onClick={()=>setToAdd(true)}><img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/add-round-icon.png" alt="add team member" /></button>
+                        <button onClick={()=>setToAdd(true)}><img src="https://www.svgrepo.com/show/40113/plus.svg" alt="add team member" /></button>
                     </div>
                 </div>
                 <div className="cross">
-                    <button onClick={()=>{props.setShowWhat("none")}}><img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/remove-close-round-icon.png" alt="cross svg" /></button>
+                    <button onClick={()=>{props.setShowWhat("none")}}><img src="https://www.svgrepo.com/show/522083/cross-circle.svg" alt="cross svg" /></button>
                 </div>
             </div>
             <div className="break"><hr /></div>
@@ -45,7 +45,7 @@ function DetailedCard(props){
                             <button onClick={()=>{
                                     setInputValue(element);
                                     setChangeIndex(index);
-                                }}><img src="https://uxwing.com/wp-content/themes/uxwing/download/editing-user-action/pencil-icon.png" alt="Edit" /></button>
+                                }}><img src="https://www.svgrepo.com/show/535558/pencil.svg" alt="Edit" /></button>
                             <button onClick={()=>{
                                 setInputValue(element);
                                 setChangeIndex(-1);
@@ -55,7 +55,7 @@ function DetailedCard(props){
                                     Title: (props.title === "Task Assigned") ? "task_assigned" : "to_be_noted",
                                     Delete: true
                                 })
-                            }}><img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/trash-icon.png" alt="Delete" /></button>
+                            }}><img src="https://www.svgrepo.com/show/490436/trash-can.svg" alt="Delete" /></button>
                         </div>
                     </li>)}
                 </ul>
@@ -68,7 +68,7 @@ function DetailedCard(props){
                         }}>Save</button>
                         <button className="cross-button" onClick={() =>{
                             setToAdd(false);
-                        }}><img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/remove-close-round-icon.png" alt="cross icon" /></button>
+                        }}><img src="https://www.svgrepo.com/show/522083/cross-circle.svg" alt="cross icon" /></button>
                     </div>
                 }
             </div>
