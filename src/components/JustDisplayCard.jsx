@@ -7,7 +7,7 @@ function JustDisplayCard(props){
                     <div className="title-content"><h2>{props.title}</h2></div>
                 </div>
                 <div className="cross">
-                    <button onClick={()=>{props.setJustDisplay("none")}}><img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/remove-close-round-icon.png" alt="cross svg" /></button>
+                    <button onClick={()=>{props.setJustDisplay("none")}}><img src="https://www.svgrepo.com/show/522083/cross-circle.svg" alt="cross svg" /></button>
                 </div>
             </div>
             <div className="break"><hr /></div>
